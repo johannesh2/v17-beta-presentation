@@ -24,7 +24,7 @@ export class MainEndpoint extends LitElement {
     {route: 'forms', name: 'Client-Side Form Binding'},
     {route: 'charts', name: 'New Charts'},
     {route: 'littemplates', name: 'Lit Templates'},
-    {route: 'routetemplates', name: 'Route Templates'},
+    {route: 'routetemplates/1', name: 'Route Templates'},
   ];
 
   @property({ type: String} ) projectName: string = '';
