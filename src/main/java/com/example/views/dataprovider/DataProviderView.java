@@ -2,8 +2,8 @@ package com.example.views.dataprovider;
 
 import com.vaadin.flow.component.dependency.CssImport;
 import com.vaadin.flow.component.grid.Grid;
-import com.vaadin.flow.component.html.Div;
 import com.vaadin.flow.component.html.H2;
+import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.router.PageTitle;
 import com.vaadin.flow.router.Route;
 
@@ -12,8 +12,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 @Route(value = "dataprovider")
 @PageTitle("Data Provider")
-@CssImport("views/dataprovider/data-provider-view.css")
-public class DataProviderView extends Div {
+@CssImport("./views/dataprovider/data-provider-view.css")
+public class DataProviderView extends VerticalLayout {
 
     public DataProviderView(@Autowired MyService service) {
         setId("data-provider-view");

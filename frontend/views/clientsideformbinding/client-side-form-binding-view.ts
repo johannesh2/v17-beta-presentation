@@ -23,6 +23,7 @@ export class ClientSideFormBindingView extends LitElement {
     if (!this.binder.value) return html`Loading`;
     return html`
       <vaadin-vertical-layout theme="spacing margin">
+        <p><a href="https://vaadin.com/docs/v17/flow/client-side-forms/tutorial-binder.html">Documentation</a></p>
         <vaadin-text-field label="First name" ...="${field(this.binder.model.first)}"></vaadin-text-field>
         <vaadin-text-field label="Last name" ...="${field(this.binder.model.last)}"></vaadin-text-field>
         <vaadin-date-picker label="Date of birth" ...="${field(this.binder.model.dateOfBirth)}"></vaadin-date-picker>
