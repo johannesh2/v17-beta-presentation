@@ -15,7 +15,7 @@ import com.vaadin.flow.router.Route;
 @PageTitle("Lit Templates")
 @CssImport("views/littemplates/lit-templates-view.css")
 @Tag("lit-templates-view")
-@JsModule("./views/littemplates/lit-templates-view.js")
+@JsModule("./views/littemplates/lit-templates-view.ts")
 public class LitTemplatesView extends LitTemplate {
 
     @Id
